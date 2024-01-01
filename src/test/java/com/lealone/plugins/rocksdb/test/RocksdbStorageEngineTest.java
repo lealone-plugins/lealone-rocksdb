@@ -3,19 +3,20 @@
  * Licensed under the Server Side Public License, v 1.
  * Initial Developer: zhh
  */
-package org.lealone.plugins.rocksdb.test;
+package com.lealone.plugins.rocksdb.test;
 
 import java.io.File;
 
 import org.junit.Test;
-import org.lealone.db.PluginManager;
-import org.lealone.plugins.rocksdb.RocksdbStorageEngine;
-import org.lealone.storage.Storage;
-import org.lealone.storage.StorageBuilder;
-import org.lealone.storage.StorageEngine;
-import org.lealone.storage.StorageMap;
-import org.lealone.storage.fs.FileUtils;
-import org.lealone.test.TestBase;
+import com.lealone.db.PluginManager;
+import com.lealone.storage.Storage;
+import com.lealone.storage.StorageBuilder;
+import com.lealone.storage.StorageEngine;
+import com.lealone.storage.StorageMap;
+import com.lealone.storage.fs.FileUtils;
+import com.lealone.test.TestBase;
+
+import com.lealone.plugins.rocksdb.RocksdbStorageEngine;
 
 public class RocksdbStorageEngineTest extends TestBase {
 

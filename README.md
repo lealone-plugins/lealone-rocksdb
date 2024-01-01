@@ -26,7 +26,7 @@ RocksDB 存储引擎插件
 
 ```sql
 create plugin rocksdb
-  implement by 'org.lealone.plugins.rocksdb.RocksdbStorageEngine' 
+  implement by 'com.lealone.plugins.rocksdb.RocksdbStorageEngine' 
   class path 'E:\lealone\lealone-plugins\rocksdb\target\lealone-rocksdb-plugin-6.0.0.jar';
 ```
 

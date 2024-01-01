@@ -3,9 +3,9 @@
  * Licensed under the Server Side Public License, v 1.
  * Initial Developer: zhh
  */
-package org.lealone.plugins.rocksdb;
+package com.lealone.plugins.rocksdb;
 
-import org.lealone.storage.StorageMapCursor;
+import com.lealone.storage.StorageMapCursor;
 import org.rocksdb.RocksIterator;
 
 //RocksIterator的行为跟java.util.Iterator不一样，
